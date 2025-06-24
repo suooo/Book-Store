@@ -25,8 +25,8 @@ describe("Button 컴포넌트 테스트", () => {
       </BookStoreThemeProvider>
     );
     // 2. 확인
-    expect(screen.getByRole("Button")).toHaveStyle({
-      fontsize: "1.5rem",
+    expect(screen.getByRole("button")).toHaveStyle({
+      fontSize: "1.5rem",
     });
   });
 });

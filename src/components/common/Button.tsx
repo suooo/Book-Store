@@ -9,7 +9,7 @@ interface Props {
   isLoading: boolean;
 }
 
-function Button({ children, size, scheme, disabled, isLoading }) {
+function Button({ children, size, scheme, disabled, isLoading }: Props) {
   return (
     <ButtonStyle
       size={size}
