@@ -5,8 +5,8 @@ interface Props {
   children: React.ReactNode;
   size: ButtonSize;
   scheme: ButtonScheme;
-  disabled: boolean;
-  isLoading: boolean;
+  disabled?: boolean;
+  isLoading?: boolean;
 }
 
 function Button({ children, size, scheme, disabled, isLoading }: Props) {
